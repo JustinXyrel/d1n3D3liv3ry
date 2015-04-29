@@ -1,0 +1,113 @@
+
+/*
+  #AGENT CENTRALIZED DISPLAY
+*/
+
+html{
+  overflow: hidden;
+}
+
+#centralize div {
+  margin: 0px;
+  padding: 0px;
+}
+
+.centralize-left{
+  background-color: #343434;
+  height: 628px;  
+  margin: 2px;
+}
+
+.centralize-right{
+  background-color: #131313;
+  height: 628px;  
+  margin: 2px;
+}
+
+.centralize-right span {
+  float: left;
+  margin-left: 27px;
+  font-weight: bolder;
+  font-size: medium;
+  line-height: 25px;
+}
+
+.btn-default .badge {
+  color: #F2F2F2;
+  background-color: #131313;
+  padding: 5px 15px;
+  float: right;
+  margin-right: 10px;
+}
+
+.left-hold div{
+  display: inline-block;
+  color: #F0F8FF;
+  background-color: #F95500;
+}
+.left-cancelled div {
+  display: inline-block;
+  color: #F0F8FF;
+  background-color: #029404;
+}
+
+.divs-left{
+  margin: 2px 2px;
+  padding: 2px 22px;  
+}
+
+.title-bar-left-pane strong {
+  padding-left: 15px;
+}
+
+.title-bar-left-pane {
+  background-color: #FAFAFA;
+  font-size: larger;
+  line-height: 33px;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #D5D5D5;
+}
+
+.table-striped > tbody > tr:nth-child(even) > td {
+background-color: #FCFFEB;
+}
+
+.table {
+  font-size: smaller;
+}
+
+.table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+padding: 2px 6px;
+line-height: 1.428571429;
+vertical-align: top;
+border-top: 1px solid #DDD;
+}
+
+
+/*
+REPORT CSS CALL CENTER STORE MANAGER
+*/
+.report_btns button{  
+    width: 50%;
+}
+
+#header-form{
+  margin: 0px 10px;
+}
+
+#header-form .row > div {
+  padding-right: 0px;
+  padding-left: 5px;
+}
+
+#header-form .btn.btn-block {
+font-size: 15px;
+padding: 6.5px;
+}
+
+.progress-bar-green, .progress-bar-success {
+    font-weight:bold !important;
+}

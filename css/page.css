@@ -1,0 +1,25 @@
+.vertical-list{
+	margin: 0;
+	padding: 0px 0px;
+	list-style: none;
+}
+.vertical-list li{
+  border-radius: 2px;
+  padding: 10px;
+  background: #f3f4f5;
+  margin-bottom: 2px;
+  border-left: 2px solid #e6e7e8;
+  color: #444;
+}
+.vertical-list .handle {
+  display: inline-block;
+  margin: 0 5px;
+}
+.vertical-list li a {
+  float:right;
+}
+.vertical-list li a.text {
+  float:none;
+  font-weight: bold;
+}
+
